@@ -1,4 +1,4 @@
-export const spongify = (str: string, step: number = 5): string => {
+export const spongify = (str: string, step: number = 4): string => {
   const letters = str.toLowerCase().split('');
   for (let i = 1; i < letters.length - (step - 1); i++) {
       let randomInt = Math.floor(Math.random() * step);
